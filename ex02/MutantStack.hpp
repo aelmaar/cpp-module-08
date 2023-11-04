@@ -6,7 +6,7 @@
 /*   By: ael-maar <ael-maar@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/25 18:36:38 by ael-maar          #+#    #+#             */
-/*   Updated: 2023/10/25 19:46:05 by ael-maar         ###   ########.fr       */
+/*   Updated: 2023/11/04 15:32:29 by ael-maar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 #include <iostream>
 #include <stack>
+#include <vector>
 
 template <typename T, typename Container = std::deque<T> >
 class MutantStack : public std::stack<T, Container>
