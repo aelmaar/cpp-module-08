@@ -6,7 +6,7 @@
 /*   By: ael-maar <ael-maar@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/24 13:19:46 by ael-maar          #+#    #+#             */
-/*   Updated: 2023/10/25 18:15:07 by ael-maar         ###   ########.fr       */
+/*   Updated: 2023/11/04 15:30:29 by ael-maar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 #include <iostream>
 #include <numeric>
+#include <vector>
 
 typedef std::vector<int>::iterator v_iterator;
 
